@@ -1,0 +1,122 @@
+.symptomChecker {
+    padding: 30px 100px;
+}
+
+.symptomChecker h1 {
+    text-align: center;
+    color: #4e4fb8;
+}
+
+.symptonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#checkImage {
+    width: 400px;
+    height: 400px;
+}
+
+form {
+    border: 1px solid #e3b1e4;
+    padding: 70px;
+    margin-top: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+form label {
+    color: #4e4fb8;
+}
+
+#symptoms {
+    color: #4e4fb8;
+    border-color: #4e4fb8;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+}
+
+form button {
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+form button:hover {
+    background-color: rgb(31, 31, 155);
+}
+
+.responses p {
+    background-color: blue;
+    color: blue;
+    border-radius: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.close-button {
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (max-width: 980px) {
+    .symptomChecker {
+        padding: 30px 10px;
+    }
+    .symptonContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #checkImage {
+        width: 300px;
+        height: 300px;
+    }
+    form {
+        padding: 70px;
+        margin-top: 10px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    #symptoms {
+        color: #4e4fb8;
+        border-color: #4e4fb8;
+        border-radius: 10px;
+        width: 200px;
+        padding: 10px;
+    }
+    .responses p {
+        color: blue;
+        border-radius: 10px;
+        padding: 5px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 300px;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+    }
+}

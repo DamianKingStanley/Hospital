@@ -1,0 +1,54 @@
+.OurServices {
+    padding: 30px 50px;
+    background-color: #f1f4f4;
+}
+
+.OurServices h1 {
+    text-align: center;
+}
+
+.medicalServices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.medicalServices img {
+    width: 400px;
+    height: 400px;
+    border-radius: 30%;
+}
+
+.medicalServices h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.medicalServices p {
+    margin-left: 30px;
+    color: blue;
+}
+
+.medicalServices p:hover {
+    cursor: pointer;
+    color: red;
+}
+
+@media screen and (max-width: 980px) {
+    .OurServices {
+        padding: 20px 10px;
+    }
+    .medicalServices {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-left: 20px;
+    }
+    .medicalServices img {
+        width: 300px;
+        height: 300px;
+        border-radius: 30%;
+    }
+}

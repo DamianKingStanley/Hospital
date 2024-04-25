@@ -1,0 +1,36 @@
+.heroSectionContainer {
+    background-image: url(../../assest//doctor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 140px;
+}
+
+.heroSectionContainer h1 {
+    color: #4e4fb8;
+    font-size: 80px;
+    margin-right: 500px;
+}
+
+.heroSectionContainer p {
+    color: #4e4fb8;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+    .heroSectionContainer {
+        background-image: url(../../assest//doctor.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 80px 20px;
+    }
+    .heroSectionContainer h1 {
+        color: #4e4fb8;
+        font-size: 40px;
+        margin-right: 50px;
+    }
+    .heroSectionContainer p {
+        color: #4e4fb8;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+}
